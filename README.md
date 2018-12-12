@@ -13,7 +13,7 @@ bash ./docker/build.sh
 
 ... and play the game, run the following:
 ```bash
-bash ./docker/run.sh
+bash ./docker/run.sh # or look in this script to see the extra args you should pass
 # now you're in the container
 cat README.md # to see instructions
 cd crackme/
