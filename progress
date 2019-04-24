@@ -1,0 +1,8 @@
+warmup
+  strace ./warmup 2>&1 | grep password
+filterme
+  strace ./filterme 2>&1 | grep 'write(3'
+fd
+  echo hi | ./fd 4660
+fork
+  
